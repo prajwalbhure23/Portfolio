@@ -1,0 +1,118 @@
+
+footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.bottom {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+}
+
+.bottomleft,
+.bottomright {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hiremeHead,
+.connectHead {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.hiremeDesc,
+.message {
+    font-size: 16px;
+}
+
+.connectLogo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.connectLogo img {
+    height: 50px;
+    width: 50px;
+}
+
+.connectLogo img:hover {
+    transform: scale(1.04);
+    transition: 0.4s linear;
+}
+
+.copyright {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    footer {
+        gap: 10px;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .hiremeHead span,
+    .connectHead span {
+        width: 60px;
+    }
+
+    .hiremeHead,
+    .connectHead {
+        font-size: 40px;
+    }
+
+    .message {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hiremeHead span,
+    .connectHead span {
+        width: 50px;
+    }
+
+    .hiremeDesc {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hiremeHead span,
+    .connectHead span {
+        width: 40px;
+        height: 2px;
+    }
+
+    .hiremeDesc,
+    .message {
+        font-size: 12px;
+    }
+
+    .connectLogo img {
+        height: 40px;
+        width: 40px;
+        margin-left: -4px;
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
