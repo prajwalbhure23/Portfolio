@@ -14,13 +14,15 @@ const ProjectsSection = () => {
             pName: 'Blogger',
             pDescrip: 'A full stack Blogging Application using MERN stack.',
             codeViewLink: 'https://github.com/prajwalbhure23/Blogger--Full-Stack-Blog-App',
+            projectLink: 'https://thunderous-caramel-4e05a9.netlify.app'
         },
         {
             id: 2,
             pImage: VideoLibrary,
             pName: 'VideoLibrary Application',
             pDescrip: 'A Video Library Application where Users can access videos uploaded by the Admin',
-            codeViewLink: 'https://github.com/prajwalbhure23/VideoLibrary-end-to-end-'
+            codeViewLink: 'https://github.com/prajwalbhure23/VideoLibrary-end-to-end-',
+            projectLink: 'https://effortless-sundae-383a84.netlify.app'
         },
         {
             id: 3,
@@ -48,6 +50,9 @@ const ProjectsSection = () => {
                                 <div className="projectActions">
                                     
                                     <a href={project.codeViewLink} id='vwbtn'>Link to Code</a>
+                                    { 
+                                    project.projectLink ? <a href={project.projectLink}>Project Link</a> : null
+                                    }
                                 </div>
                             </div>
                         </div>
