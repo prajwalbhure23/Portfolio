@@ -14,7 +14,7 @@ const ProjectsSection = () => {
             pName: 'Blogger',
             pDescrip: 'A full stack Blogging Application using MERN stack.',
             codeViewLink: 'https://github.com/prajwalbhure23/Blogger--Full-Stack-Blog-App',
-            projectLink: 'https://thunderous-caramel-4e05a9.netlify.app'
+            projectLink: 'https://blogger-full-stack-blog-app.vercel.app/'
         },
         {
             id: 2,
@@ -22,7 +22,6 @@ const ProjectsSection = () => {
             pName: 'VideoLibrary Application',
             pDescrip: 'A Video Library Application where Users can access videos uploaded by the Admin',
             codeViewLink: 'https://github.com/prajwalbhure23/VideoLibrary-end-to-end-',
-            projectLink: 'https://effortless-sundae-383a84.netlify.app'
         },
         {
             id: 3,
